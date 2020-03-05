@@ -1,0 +1,14 @@
+<!-- Header -->
+<div class="header">
+	<span></span>
+    <ui5-button (click)="goToPage1()">Go to Page 1</ui5-button>   
+    <ui5-button (click)="callSampleService()">Call Sample Service</ui5-button>   
+</div>
+
+<div>
+    <ui5-textarea 
+        placeholder="data from service will populate after button click" 
+        cols="10"
+        rows="10"
+        value="{{data_from_service}}"></ui5-textarea>
+</div>

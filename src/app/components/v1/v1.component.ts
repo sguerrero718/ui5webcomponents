@@ -30,4 +30,8 @@ export class V1Component implements OnInit {
     this.router.navigate(['v2']);
   }
 
+  onNavToPage3() {
+    this.router.navigate(['v3']);
+  }
+
 }

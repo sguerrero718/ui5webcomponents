@@ -1,0 +1,6 @@
+{
+    "d" : {
+        "person": { "id": 1, "name" :"Sergio", "company" : "Shockwave Consulting"},
+        "technologies" : [ "Angular", "JavaScript", "TypeScript", "UI5", "WebComponents" ]
+    }
+}
